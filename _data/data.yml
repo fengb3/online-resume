@@ -345,9 +345,9 @@ language:
       level: 无障碍沟通
 
 interest:
-  show: true
+  show: false
   order: 12
-  title: 兴趣爱好
+  title: Available resume
   # description: |
   #   The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
 
@@ -359,13 +359,13 @@ interest:
     - item: .NET
       link: 'resume/dotnet.html'
     - item: U3D
-      link: 'resume/unity3d.html'
+      link: 'resume/u3d.html'
     - item: Java
       link: 'resume/java.html'
     
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: 自我评价
   description: |
@@ -374,37 +374,47 @@ evaluation:
 
 
 reference:
-  show: false
+  show: true
   order: 14
   title: References
-  description: |
-    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
+  # description: |
+  #   A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
 
-    It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
+  #   It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
 
-    When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
+  #   When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
 
-    It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
+  #   It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
 
   items:
-    - name: Foo One
-      link: '#'
-      title: Backend Developer
-      institution: Second Company
-      address: 1234 Example St, XXX, XY 11111
-      email: foo.one@example.com
-      phone: 111-222-333
-      description: |
-        Foo One was my colleague in Second Company.
+    - name: .NET
+      link: 'resume/dotnet.html'
+      title: Software Engineer
+      institution: # Second Company
+      address: # 1234 Example St, XXX, XY 11111
+      email: # foo.one@example.com
+      phone: # 111-222-333
+      description: # |
+        # Foo One was my colleague in Second Company.
 
-    - name: Bar Two
-      link:
-      title: Professor
-      institution: Example University
-      address: 4321 Example St, YYY, XY 22222
-      email: bar.two@example.com
-      phone: 444-555-666
-      description: |
-        Bar Two was my advisor at Example University.
+    - name: U3D
+      link: 'resume/u3d.html'
+      title: Game Client Engineer
+      institution: #Example University
+      address: #4321 Example St, YYY, XY 22222
+      email: #bar.two@example.com
+      phone: #444-555-666
+      description: #|
+        #Bar Two was my advisor at Example University.
+
+    - name: Java
+      link: 'resume/java.html'
+      title: Software Engineer
+      institution: #Third Company
+      address: #5678 Example St, ZZZ, XY 33333
+      email: #baz.three@example
+      phone: #777-888-999
+      description: #|
+        #Baz Three was my manager in Third Company.
 
 close: <strong>Sorry, my resume has been hidden.</strong>
