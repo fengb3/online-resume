@@ -208,12 +208,8 @@ education:
       date: 2020.08 - 2023.09
       major: 信息系统
       degree: 硕士
-      description: 
-        items:
-          - item: GPA: 3.8/4.0
-          - item: 专业排名：前 10%
-        # GPA: 3.8/4.0
-        # 专业排名：前 10%
+      description: |
+        GPA: 3.8/4.0 / 专业排名：前 10%
 
     - institution: 迈阿密大学
       link: '#'
@@ -221,8 +217,7 @@ education:
       major: 计算机科学
       degree: 本科
       description: |
-        GPA: 3.2/4.0
-        专业排名：前 10%
+        GPA: 3.2/4.0 / 专业排名：前 10%
 
 certificate:
   show: false
@@ -361,10 +356,11 @@ interest:
   #   However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
 
   items:
-    - item: 鬼畜视频剪辑
+    - item: 视频剪辑
       link: 'https://space.bilibili.com/802027'
-    - item: Cooking
+    - item: 编曲
       link:
+    
 
 evaluation:
   show: true
