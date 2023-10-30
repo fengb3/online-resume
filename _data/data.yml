@@ -108,8 +108,8 @@ experience:
 project:
   show: true
   order: 3
-  title: 项目经理
-  description: |
+  title: 项目经历
+#  description: |
     # The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
 
     # In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
@@ -203,8 +203,6 @@ education:
       description: |
         GPA: 3.8/4.0
         专业排名：前 10%
-      # + First
-      # + Second
 
     - institution: 迈阿密大学
       link: '#'
@@ -214,8 +212,6 @@ education:
       description: |
         GPA: 3.2/4.0
         专业排名：前 10%
-        # + First
-        # + Second
 
 certificate:
   show: false
