@@ -96,7 +96,7 @@ experience:
   items:
     - company: 北京骏骥网络科技有限公司
       link: '#'
-      tags: Full-time
+      tags: # Full-time
       date: 2018.03 - 2019.03
       role: Unity3d 游戏客户端程序实习生
       location: Beijing
@@ -149,17 +149,13 @@ project:
         + 数据管理:基于mysql数据库，设计用户以及通信的多个表来管理整个项目的数据库服务;
 
 skill:
-  show: false
+  show: true
   order: 4
-  title: Skills
+  title: 技能描述
   description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
+    + 编程语言: C#, Java, C++, Python, JavaScript 
+    + 数据库: MySql, SqlServer, Sqlite 
+    + 工具: Unity, Git版本控制, Linux 命令行
 
   items:
     - name: Skill A
@@ -373,7 +369,6 @@ evaluation:
   order: 13
   title: 自我评价
   description: |
-      #  A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
        我持有坚定的责任感和专业执着，始终认真细致地对待每一项工作。无论在学校还是实习环境中，都凭借出色的团队合作意识赢得了同学和同事的一致好评。具备深厚的主流编程语言功底，并对新技术充满探索热情。出色的学习能力使我能迅速掌握和运用前沿技术。
 
 
