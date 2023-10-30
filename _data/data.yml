@@ -152,47 +152,46 @@ skill:
   show: true
   order: 4
   title: 技能描述
-  description: |
-    + 编程语言: C#, Java, C++, Python, JavaScript 
-    + 数据库: MySql, SqlServer, Sqlite 
-    + 工具: Unity, Git版本控制, Linux 命令行
+  description: 
 
-  items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
+  # items:
+  #   - name: Skill A
+  #     level: 5
+  #   - name: Skill B
+  #     level: 4
+  #   - name: Skill C
+  #     level: 3
+  #   - name: Skill D
+  #     level: 4
+  #   - name: Skill E
+  #     level: 3
+  #   - name: Skill F
+  #     level: 1
+  #   - name: Skill G
+  #     level: 4
+  #   - name: Skill H
+  #     level: 4
+  #   - name: Skill I
+  #     level: 3
 
   groups:
-    - name: Group A Skills
+    - name: 编程语言
       item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
+        - C#
+        - Java
+        - Python
+        - C++
+        - JavaScript
+    - name: 数据库
       item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
+        - MySql
+        - SqlServer
+        - Sqlite
+    - name: 工具
       item:
-        - Skill H
-        - Skill I
+        - Unity
+        - Git版本控制
+        - Linux 命令行
 
 education:
   show: true
