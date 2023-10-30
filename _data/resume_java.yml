@@ -117,36 +117,58 @@ project:
 
     # The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
-  items:
-    - name: Unity3d 替身战斗游戏
-    #  link: '#'
-      tags: 单人开发
-      date: 2023.6 - 2023.08
-      description: |
-        第三人称替身战斗游戏，玩家需要通过召唤替身与敌人进行战斗，并在游戏的最后阶段击败boss以赢得胜利;
-        + UI使用额外的相机在界面中渲染模型，使用C#,实现简单的ui动效;
-        + 使用Unity 动画状态机和C#代码实现了角色(包括玩家、敌人和替身)的流畅动作和状态切换;
-        + 战斗中使用**CastNonAlloc准确判断攻击范围，可对攻击的形状和判定帧精确定义，来实现战斗;
-        + 利用Shader Graph 和 Global Volume 来调整游戏的视觉效果，包括替身的现形和消失，以及画面的色调、景 深和曝光等;
+  # items:
+  #   - name: Unity3d 替身战斗游戏
+  #   #  link: '#'
+  #     tags: 单人开发
+  #     date: 2023.6 - 2023.08
+  #     description: |
+  #       第三人称替身战斗游戏，玩家需要通过召唤替身与敌人进行战斗，并在游戏的最后阶段击败boss以赢得胜利;
+  #       + UI使用额外的相机在界面中渲染模型，使用C#,实现简单的ui动效;
+  #       + 使用Unity 动画状态机和C#代码实现了角色(包括玩家、敌人和替身)的流畅动作和状态切换;
+  #       + 战斗中使用**CastNonAlloc准确判断攻击范围，可对攻击的形状和判定帧精确定义，来实现战斗;
+  #       + 利用Shader Graph 和 Global Volume 来调整游戏的视觉效果，包括替身的现形和消失，以及画面的色调、景 深和曝光等;
 
-    - name: Unity3d 射击游戏
-    #  link: 
-      tags: 单人开发
-      date: 2020.1 - 2020.07
-      description: |
-        第三人称射击游戏，玩家可在场景内击杀敌人，争夺旗帜并获取胜利;
-        + 搭建场景，和实现敌人AI 状态机,敌人在在场景内可根据玩家的方位攻击玩家; 
-        + 使用 animator controller 角色状态机，实现走跑跳受伤瞄准等动作;
+  #   - name: Unity3d 射击游戏
+  #   #  link: 
+  #     tags: 单人开发
+  #     date: 2020.1 - 2020.07
+  #     description: |
+  #       第三人称射击游戏，玩家可在场景内击杀敌人，争夺旗帜并获取胜利;
+  #       + 搭建场景，和实现敌人AI 状态机,敌人在在场景内可根据玩家的方位攻击玩家; 
+  #       + 使用 animator controller 角色状态机，实现走跑跳受伤瞄准等动作;
 
     - name: iOS 招聘应用
-    #  link: 
-      tags: 单人前后端开发
+      link: '#'
+      tags: 单人全栈开发
       date: 2023.01 - 2023.06
       description: |
-        类似boss直聘的的ios系统的app开发，包括对用户的交互、通信、文件传输等多个功能;
-        + 客户端开发:基于swift ui完成整个app的用户登录、交互、通信异己烷文件传输的多个ui开发工作;
-        + 服务端开发:通过c#完成整个后端的业务逻辑开发，实现SSO 单点登录机制，并设计用户设计用户缓存队列和多并发机 制，确保按服务的稳定，针对signal R只能传输文本，设计了一个文件流传输技术;
-        + 数据管理:基于mysql数据库，设计用户以及通信的多个表来管理整个项目的数据库服务;
+        此项目是一个仿照boss直聘风格的iOS招聘应用，涵盖用户交互、通信、文件传输等多项功能。
+        + 客户端开发: 采用Swift UI技术完成整个app的用户登录、交互、通信以及文件传输的UI界面开发。    
+        + 服务端开发: 使用C#和.NET进行业务逻辑的开发，实施SSO单点登录机制。同时设计用户缓存队列与高并发处理机制以保障服务稳定性。考虑到SignalR的文本传输限制，特地设计了文件流传输方案。   
+        + 数据管理: 选用MySQL作为数据库，专门为用户和通信功能设计和管理数据表，确保项目的数据库服务运行流畅。
+
+
+    - name: Java Swing 林业管理桌面应用
+      link: '#'
+      tags: 后端开发
+      date: 2020.09 - 2020.12
+      description: |
+        该项目为模拟林业管理流程的客户端桌面应用。不同权限的用户可登录系统进行伐木申请、木材交易、木制家具制作、家具交易和购买。
+        + 客户端开发: 采用 Java Swing 构建客户端界面，涵盖用户登录、定制交易、及购买功能界面。独立完成客户端与后端接口的调试、管理与设计。
+        + 服务端开发: 基于 Spring Boot 框架建立服务端。充分利用 Spring 的依赖注入和AOP特性，打造高并发、高扩展性的服务API，并实现交易、购买等业务逻辑接口。
+        + 数据管理: 采用 SQL Server 数据库为后端提供数据存储，专门设计用户、商品及交易的数据存储逻辑，优化数据查询效率与复杂性。
+
+    - name: Java Spring MVC 电影评论网站
+      link: '#'
+      tags: 后端开发
+      date: 2021.02 - 2021.06
+      description: |
+        此项目是一个综合性的电影评论网站后端开发，用户可以登录账户，收藏电影，创建片单，为电影打分及评论等。
+        + 客户端开发: 采用React技术，负责用户管理登录系统的界面开发，包括页面布局、界面跳转以及UI元素如颜色、按钮等的设计和开发。
+        + 服务端开发: 基于Spring Boot构建服务端，负责用户登录、账户创建、电影打分、评论等多个业务功能的后端逻辑处理和API接口开发，同时负责与前端的数据交互设计。
+        + 数据管理: 使用MySQL作为数据库，负责设计和优化用户登录、账户创建、电影打分、评论等相关的数据存储逻辑，通过MyBatis实现对象关系映射，提高数据处理的可靠性和效率。
+
 
 skill:
   show: true
