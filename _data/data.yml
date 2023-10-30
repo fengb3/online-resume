@@ -371,13 +371,12 @@ interest:
 evaluation:
   show: true
   order: 13
-  title: Self-evaluation
+  title: 自我评价
   description: |
-    The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
+      #  A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
+       我持有坚定的责任感和专业执着，始终认真细致地对待每一项工作。无论在学校还是实习环境中，都凭借出色的团队合作意识赢得了同学和同事的一致好评。具备深厚的主流编程语言功底，并对新技术充满探索热情。出色的学习能力使我能迅速掌握和运用前沿技术。
 
-    In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
 
-    A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
 
 reference:
   show: false
