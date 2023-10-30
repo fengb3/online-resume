@@ -96,7 +96,7 @@ experience:
   items:
     - company: 北京骏骥网络科技有限公司
       link: '#'
-#      tags: Full-time
+      tags: Full-time
       date: 2018.03 - 2019.03
       role: Unity3d 游戏客户端程序实习生
       location: Beijing
@@ -123,20 +123,30 @@ project:
       tags: 单人开发
       date: 2023.6 - 2023.08
       description: |
-        第三人称替身战斗游戏，玩家需要通过召唤替身与敌人进行战斗，并在游戏的最后阶段击败boss以赢得胜利。
-        + UI使用额外的相机在界面中渲染模型，使用C#,实现简单的ui动效。
-        + 使用Unity 动画状态机和C#代码实现了角色(包括玩家、敌人和替身)的流畅动作和状态切换。 
-        + 战斗中使用**CastNonAlloc准确判断攻击范围，可对攻击的形状和判定帧精确定义，来实现战斗。 
-        + 利用Shader Graph 和 Global Volume 来调整游戏的视觉效果，包括替身的现形和消失，以及画面的色调、景 深和曝光等。
+        第三人称替身战斗游戏，玩家需要通过召唤替身与敌人进行战斗，并在游戏的最后阶段击败boss以赢得胜利;
+        + UI使用额外的相机在界面中渲染模型，使用C#,实现简单的ui动效;
+        + 使用Unity 动画状态机和C#代码实现了角色(包括玩家、敌人和替身)的流畅动作和状态切换;
+        + 战斗中使用**CastNonAlloc准确判断攻击范围，可对攻击的形状和判定帧精确定义，来实现战斗;
+        + 利用Shader Graph 和 Global Volume 来调整游戏的视觉效果，包括替身的现形和消失，以及画面的色调、景 深和曝光等;
 
     - name: Unity3d 射击游戏
 #      link: 
       tags: 单人开发
       date: 2020.1 - 2020.07
       description: |
-        第三人称射击游戏，玩家可在场景内击杀敌人，争夺旗帜并获取胜利。 
-        + 搭建场景，和实现敌人AI 状态机,敌人在在场景内可根据玩家的方位攻击玩家。 
-        + 使用 animator controller 角色状态机，实现走跑跳受伤瞄准等动作。
+        第三人称射击游戏，玩家可在场景内击杀敌人，争夺旗帜并获取胜利;
+        + 搭建场景，和实现敌人AI 状态机,敌人在在场景内可根据玩家的方位攻击玩家; 
+        + 使用 animator controller 角色状态机，实现走跑跳受伤瞄准等动作;
+
+    - name: iOS 招聘应用
+#      link: 
+      tags: 单人前后端开发
+      date: 2023.01 - 2023.06
+      description: |
+        类似boss直聘的的ios系统的app开发，包括对用户的交互、通信、文件传输等多个功能;
+        + 客户端开发:基于swift ui完成整个app的用户登录、交互、通信异己烷文件传输的多个ui开发工作;
+        + 服务端开发:通过c#完成整个后端的业务逻辑开发，实现SSO 单点登录机制，并设计用户设计用户缓存队列和多并发机 制，确保按服务的稳定，针对signal R只能传输文本，设计了一个文件流传输技术;
+        + 数据管理:基于mysql数据库，设计用户以及通信的多个表来管理整个项目的数据库服务;
 
 skill:
   show: false
@@ -327,7 +337,7 @@ organization:
     This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
 
 language:
-  show: true
+  show: false
   order: 11
   title: Languages
   description: |
