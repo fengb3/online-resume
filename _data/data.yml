@@ -118,23 +118,25 @@ project:
     # The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
   items:
-    - name: Personal project
-      link: '#'
-      tags:
-      date: 2015 - 2017
+    - name: Unity3d 替身战斗游戏
+#      link: '#'
+      tags: 单人开发
+      date: 2023.6 - 2023.08
       description: |
-        Personal project description...
-        + First
-        + Second
+        第三人称替身战斗游戏，玩家需要通过召唤替身与敌人进行战斗，并在游戏的最后阶段击败boss以赢得胜利。
+        + UI使用额外的相机在界面中渲染模型，使用C#,实现简单的ui动效。
+        + 使用Unity 动画状态机和C#代码实现了角色(包括玩家、敌人和替身)的流畅动作和状态切换。 
+        + 战斗中使用**CastNonAlloc准确判断攻击范围，可对攻击的形状和判定帧精确定义，来实现战斗。 
+        + 利用Shader Graph 和 Global Volume 来调整游戏的视觉效果，包括替身的现形和消失，以及画面的色调、景 深和曝光等。
 
-    - name: OSS project
-      link:
-      tags: committer
-      date:
+    - name: Unity3d 射击游戏
+#      link: 
+      tags: 单人开发
+      date: 2020.1 - 2020.07
       description: |
-        OSS project description...
-        + First
-        + Second
+        第三人称射击游戏，玩家可在场景内击杀敌人，争夺旗帜并获取胜利。 
+        + 搭建场景，和实现敌人AI 状态机,敌人在在场景内可根据玩家的方位攻击玩家。 
+        + 使用 animator controller 角色状态机，实现走跑跳受伤瞄准等动作。
 
 skill:
   show: false
